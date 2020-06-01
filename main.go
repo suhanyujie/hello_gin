@@ -22,5 +22,6 @@ func main() {
 
 	// 程序结束前关闭数据库链接
 	defer global.GVA_DB.Close()
+	fmt.Println("listen and serve on 0.0.0.0:8080")
 	r.Run(":8080") // listen and serve on 0.0.0.0:8080
 }

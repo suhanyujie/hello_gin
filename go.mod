@@ -11,6 +11,4 @@ require (
 	github.com/spf13/viper v1.6.3
 )
 
-replace (
-	hello_gin => ./
-)
+replace hello_gin => ./
